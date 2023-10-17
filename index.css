@@ -1,0 +1,83 @@
+body {
+    width: auto;
+    height: auto;    
+
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    width: 575;
+    height: 420;
+    color: pink;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style:oblique;
+    font-weight: 700;
+    line-height: 35.893px; 
+    display: flex;
+    flex-direction: center;   
+    justify-content: space-around;
+     border: 2px solid red;       
+     border-style:double;
+     background: rgb(203, 85, 172);
+     padding: 0px;
+     background-image:url("hockey3.jpeg")
+
+    }   
+
+.score {
+    width: 155px;
+    height: 120px;
+ 
+    border: 3px solid red;
+    text-align: center;
+    color: #F94F6D;
+margin-left: 5px;
+margin-bottom: 5px;
+text-align: center;
+font-family: Cursed Timer ULiL; 
+font-size: 90px;
+font-style: normal;
+font-weight: 400;
+line-height: 126.666px;
+background-color: black;
+border: 1px solid greenyellow;
+
+
+}
+
+.btn {
+    margin: 0px;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    font-family: Cursed Timer ULiL;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color:aqua;
+}
+
+.Startcss {
+    width: 575;
+    height: 30;
+    display: flex;
+    margin-left: 10px;
+    margin-right: auto;
+    border: 2px solid red;       
+    border-style:double;
+    background: rgb(26, 9, 75);
+    justify-content: center;
+    color: #EEE;
+    font-size: 26px;
+    font-weight: bold;
+ 
+}
+
+.Startcss:hover {
+    background-color:greenyellow;
+}
